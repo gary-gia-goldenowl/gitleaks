@@ -1,0 +1,28 @@
+{
+  "name": "gitleaks-seminar",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "lint": "yarn run eslint app/javascript",
+    "lint:fix": "yarn run eslint app/javascript --fix",
+    "gitleaks": "gitleaks detect --source . --log-opts='origin..HEAD'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gary-gia-goldenowl/gitleaks-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gary-gia-goldenowl/gitleaks-demo/issues"
+  },
+  "homepage": "https://github.com/gary-gia-goldenowl/gitleaks-demo#readme"
+}
